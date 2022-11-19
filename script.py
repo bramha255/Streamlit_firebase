@@ -10,7 +10,7 @@ with col1:
   st.write('LED')
 
 with col2:
-  radio=st.radio(label='radio', key='k1',label_visibility='collapsed', horizontal=True)
+  radio=st.radio(label='radio', options=('On','Off'), key='k1',label_visibility='collapsed', horizontal=True)
 
 
         
